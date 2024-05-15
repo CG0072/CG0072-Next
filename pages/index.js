@@ -29,13 +29,9 @@ const Home = (props) => {
               <span className="home-text04">Blog</span>
             </nav>
             <div className="home-buttons">
-              <a
-                href="https://cloud.cg0072.lu"
-                autoFocus="true"
-                className="home-login button"
-              >
-                Login
-              </a>
+              <Link href="/services" autoFocus="true">
+                <a className="home-link1 button">Login</a>
+              </Link>
             </div>
           </div>
           <div data-thq="thq-burger-menu" className="home-burger-menu">
@@ -140,7 +136,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-login {
+          .home-link1 {
             border-width: 0px;
             text-decoration: none;
           }
