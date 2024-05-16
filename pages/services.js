@@ -11,7 +11,7 @@ const Services = (props) => {
           <title>Services - CG0072</title>
           <meta property="og:title" content="Services - CG0072" />
         </Head>
-        <div className="services-container1">
+        <div className="services-container01">
           <h1 className="services-text">Services</h1>
           <span className="services-date-time">
             <DateTimePrimitive
@@ -20,86 +20,114 @@ const Services = (props) => {
             ></DateTimePrimitive>
           </span>
         </div>
-        <div className="services-container2">
-          <a href="https://cloud.cg0072.lu" className="services-link button">
-            <img
-              src="https://play.teleporthq.io/static/svg/default-img.svg"
-              alt="image"
-              className="services-image"
-            />
-            <span className="services-text1">Cloud</span>
-            Button
-          </a>
-          <a href="https://ssh.cg0072.lu" className="services-link1 button">
-            <img
-              src="https://play.teleporthq.io/static/svg/default-img.svg"
-              alt="image"
-              className="services-image1"
-            />
-            <span className="services-text2">SSH</span>
-            Button
+        <div className="services-container02">
+          <a href="https://uptime.cg0072.lu" className="services-link">
+            <div className="services-container03">
+              <img
+                alt="image"
+                src="/kuma-200h.png"
+                className="services-image"
+              />
+              <span className="services-text1">Uptime</span>
+            </div>
           </a>
           <a
             href="https://portainer.cg0072.lu"
-            className="services-link2 button"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="services-link1"
           >
-            <img
-              src="https://play.teleporthq.io/static/svg/default-img.svg"
-              alt="image"
-              className="services-image2"
-            />
-            <span className="services-text3">Portainer</span>
-            Button
+            <div className="services-container04">
+              <img
+                alt="image"
+                src="/portainer-200h.png"
+                className="services-image1"
+              />
+              <span className="services-text2">Portainer</span>
+            </div>
           </a>
-          <a href="https://uptime.cg0072.lu" className="services-link3 button">
-            <img
-              src="https://play.teleporthq.io/static/svg/default-img.svg"
-              alt="image"
-              className="services-image3"
-            />
-            <span className="services-text4">Uptime</span>
-            Button
+          <a
+            href="https://ssh.cg0072.lu"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="services-link2"
+          >
+            <div className="services-container05">
+              <img
+                alt="image"
+                src="/terminal-200h.png"
+                className="services-image2"
+              />
+              <span className="services-text3">SSH</span>
+            </div>
+          </a>
+          <a
+            href="https://cloud.cg0072.lu"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="services-link3"
+          >
+            <div className="services-container06">
+              <img
+                alt="image"
+                src="/cloud-200h.png"
+                className="services-image3"
+              />
+              <span className="services-text4">Cloud</span>
+            </div>
           </a>
         </div>
-        <div className="services-container3">
-          <a href="https://cg0072.lu" className="services-link4 button">
-            <img
-              src="https://play.teleporthq.io/static/svg/default-img.svg"
-              alt="image"
-              className="services-image4"
-            />
-            <span className="services-text5">cg0072.lu</span>
-            Button
+        <div className="services-container07">
+          <a href="https://cg0072.lu" className="services-link4">
+            <div className="services-container08">
+              <img alt="image" src="/favicon.png" className="services-image4" />
+              <span className="services-text5">Website</span>
+            </div>
           </a>
-          <a href="https://spotify.cg0072.lu" className="services-link5 button">
-            <img
-              src="https://play.teleporthq.io/static/svg/default-img.svg"
-              alt="image"
-              className="services-image5"
-            />
-            <span className="services-text6">Spotify</span>
-            Button
+          <a
+            href="https://spotify.cg0072.lu"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="services-link5"
+          >
+            <div className="services-container09">
+              <img
+                alt="image"
+                src="/spotify-200h.png"
+                className="services-image5"
+              />
+              <span className="services-text6">Your-Spotify</span>
+            </div>
           </a>
           <a
             href="https://filebrowser.cg0072.lu"
-            className="services-link6 button"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="services-link6"
           >
-            <img
-              src="https://play.teleporthq.io/static/svg/default-img.svg"
-              alt="image"
-              className="services-image6"
-            />
-            <span className="services-text7">File Browser</span>
-            Button
+            <div className="services-container10">
+              <img
+                alt="image"
+                src="/filebrowser-200h.png"
+                className="services-image6"
+              />
+              <span className="services-text7">Filebrowser</span>
+            </div>
           </a>
-          <a href="https://uptime.cg0072.lu" className="services-link7 button">
-            <img
-              src="https://play.teleporthq.io/static/svg/default-img.svg"
-              alt="image"
-              className="services-image7"
-            />
-            <span className="services-text8">Uptime</span>
-            Button
+          <a
+            href="https://link.cg0072.lu/admin"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="services-link7"
+          >
+            <div className="services-container11">
+              <img
+                alt="image"
+                src="/link-200h.png"
+                className="services-image7"
+              />
+              <span className="services-text8">Link Shortner</span>
+            </div>
           </a>
         </div>
       </div>
@@ -113,7 +141,7 @@ const Services = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .services-container1 {
+          .services-container01 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -127,19 +155,28 @@ const Services = (props) => {
           .services-date-time {
             margin: var(--dl-space-space-halfunit);
           }
-          .services-container2 {
+          .services-container02 {
+            gap: var(--dl-space-space-unit);
             flex: 0 0 auto;
             width: 100%;
             height: auto;
             display: flex;
+            margin-top: var(--dl-space-space-halfunit);
             align-items: stretch;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: center;
           }
           .services-link {
+            display: contents;
+          }
+          .services-container03 {
+            flex: 0 0 auto;
             display: flex;
+            align-items: flex-start;
             flex-direction: column;
-            justify-content: center;
             text-decoration: none;
           }
           .services-image {
@@ -147,12 +184,20 @@ const Services = (props) => {
             object-fit: cover;
           }
           .services-text1 {
+            width: 100%;
+            margin: var(--dl-space-space-halfunit);
+            font-size: 30px;
+            align-self: center;
             text-align: center;
           }
           .services-link1 {
+            display: contents;
+          }
+          .services-container04 {
+            flex: 0 0 auto;
             display: flex;
+            align-items: flex-start;
             flex-direction: column;
-            justify-content: center;
             text-decoration: none;
           }
           .services-image1 {
@@ -160,12 +205,20 @@ const Services = (props) => {
             object-fit: cover;
           }
           .services-text2 {
+            width: 100%;
+            margin: var(--dl-space-space-halfunit);
+            font-size: 30px;
+            align-self: center;
             text-align: center;
           }
           .services-link2 {
+            display: contents;
+          }
+          .services-container05 {
+            flex: 0 0 auto;
             display: flex;
+            align-items: flex-start;
             flex-direction: column;
-            justify-content: center;
             text-decoration: none;
           }
           .services-image2 {
@@ -173,12 +226,20 @@ const Services = (props) => {
             object-fit: cover;
           }
           .services-text3 {
+            width: 100%;
+            margin: var(--dl-space-space-halfunit);
+            font-size: 30px;
+            align-self: center;
             text-align: center;
           }
           .services-link3 {
+            display: contents;
+          }
+          .services-container06 {
+            flex: 0 0 auto;
             display: flex;
+            align-items: flex-start;
             flex-direction: column;
-            justify-content: center;
             text-decoration: none;
           }
           .services-image3 {
@@ -186,21 +247,34 @@ const Services = (props) => {
             object-fit: cover;
           }
           .services-text4 {
+            width: 100%;
+            margin: var(--dl-space-space-halfunit);
+            font-size: 30px;
+            align-self: center;
             text-align: center;
           }
-          .services-container3 {
+          .services-container07 {
+            gap: var(--dl-space-space-unit);
             flex: 0 0 auto;
             width: 100%;
             height: auto;
             display: flex;
+            margin-top: var(--dl-space-space-halfunit);
             align-items: stretch;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: center;
           }
           .services-link4 {
+            display: contents;
+          }
+          .services-container08 {
+            flex: 0 0 auto;
             display: flex;
+            align-items: flex-start;
             flex-direction: column;
-            justify-content: center;
             text-decoration: none;
           }
           .services-image4 {
@@ -208,12 +282,20 @@ const Services = (props) => {
             object-fit: cover;
           }
           .services-text5 {
+            width: 100%;
+            margin: var(--dl-space-space-halfunit);
+            font-size: 30px;
+            align-self: center;
             text-align: center;
           }
           .services-link5 {
+            display: contents;
+          }
+          .services-container09 {
+            flex: 0 0 auto;
             display: flex;
+            align-items: flex-start;
             flex-direction: column;
-            justify-content: center;
             text-decoration: none;
           }
           .services-image5 {
@@ -221,12 +303,20 @@ const Services = (props) => {
             object-fit: cover;
           }
           .services-text6 {
+            width: 100%;
+            margin: var(--dl-space-space-halfunit);
+            font-size: 30px;
+            align-self: center;
             text-align: center;
           }
           .services-link6 {
+            display: contents;
+          }
+          .services-container10 {
+            flex: 0 0 auto;
             display: flex;
+            align-items: flex-start;
             flex-direction: column;
-            justify-content: center;
             text-decoration: none;
           }
           .services-image6 {
@@ -234,12 +324,20 @@ const Services = (props) => {
             object-fit: cover;
           }
           .services-text7 {
+            width: 100%;
+            margin: var(--dl-space-space-halfunit);
+            font-size: 30px;
+            align-self: center;
             text-align: center;
           }
           .services-link7 {
+            display: contents;
+          }
+          .services-container11 {
+            flex: 0 0 auto;
             display: flex;
+            align-items: flex-start;
             flex-direction: column;
-            justify-content: center;
             text-decoration: none;
           }
           .services-image7 {
@@ -247,6 +345,10 @@ const Services = (props) => {
             object-fit: cover;
           }
           .services-text8 {
+            width: 100%;
+            margin: var(--dl-space-space-halfunit);
+            font-size: 30px;
+            align-self: center;
             text-align: center;
           }
         `}
