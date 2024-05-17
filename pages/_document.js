@@ -52,12 +52,6 @@ class CustomDocument extends Document {
         <body>
           <Main></Main>
           <NextScript></NextScript>
-          <div
-            dangerouslySetInnerHTML={{
-              __html:
-                "\n        <script defer src='https://unpkg.com/@teleporthq/teleport-custom-scripts'></script>",
-            }}
-          ></div>
         </body>
       </Html>
     )

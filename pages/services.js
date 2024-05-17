@@ -21,114 +21,90 @@ const Services = (props) => {
           </span>
         </div>
         <div className="services-container02">
-          <a href="https://uptime.cg0072.lu" className="services-link">
-            <div className="services-container03">
-              <img
-                alt="image"
-                src="/kuma-200h.png"
-                className="services-image"
-              />
-              <span className="services-text1">Uptime</span>
-            </div>
-          </a>
-          <a
-            href="https://portainer.cg0072.lu"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="services-link1"
-          >
-            <div className="services-container04">
-              <img
-                alt="image"
-                src="/portainer-200h.png"
-                className="services-image1"
-              />
-              <span className="services-text2">Portainer</span>
-            </div>
-          </a>
-          <a
-            href="https://ssh.cg0072.lu"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="services-link2"
-          >
-            <div className="services-container05">
-              <img
-                alt="image"
-                src="/terminal-200h.png"
-                className="services-image2"
-              />
-              <span className="services-text3">SSH</span>
-            </div>
-          </a>
-          <a
-            href="https://cloud.cg0072.lu"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="services-link3"
-          >
-            <div className="services-container06">
-              <img
-                alt="image"
-                src="/cloud-200h.png"
-                className="services-image3"
-              />
-              <span className="services-text4">Cloud</span>
-            </div>
-          </a>
-        </div>
-        <div className="services-container07">
-          <a href="https://cg0072.lu" className="services-link4">
-            <div className="services-container08">
-              <img alt="image" src="/favicon.png" className="services-image4" />
-              <span className="services-text5">Website</span>
-            </div>
-          </a>
-          <a
-            href="https://spotify.cg0072.lu"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="services-link5"
-          >
-            <div className="services-container09">
-              <img
-                alt="image"
-                src="/spotify-200h.png"
-                className="services-image5"
-              />
-              <span className="services-text6">Your-Spotify</span>
-            </div>
-          </a>
-          <a
-            href="https://filebrowser.cg0072.lu"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="services-link6"
-          >
-            <div className="services-container10">
-              <img
-                alt="image"
-                src="/filebrowser-200h.png"
-                className="services-image6"
-              />
-              <span className="services-text7">Filebrowser</span>
-            </div>
-          </a>
-          <a
-            href="https://link.cg0072.lu/admin"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="services-link7"
-          >
-            <div className="services-container11">
-              <img
-                alt="image"
-                src="/link-200h.png"
-                className="services-image7"
-              />
-              <span className="services-text8">Link Shortner</span>
-            </div>
-          </a>
+          <div className="services-container03">
+            <a href="https://cloud.cg0072.lu" className="services-link">
+              <div className="services-container04">
+                <img
+                  alt="image"
+                  src="/cloud-200h.png"
+                  className="services-image"
+                />
+                <span className="services-text1">Cloud</span>
+              </div>
+            </a>
+            <a href="https://spotify.cg0072.lu" className="services-link1">
+              <div className="services-container05">
+                <img
+                  alt="image"
+                  src="/spotify-200h.png"
+                  className="services-image1"
+                />
+                <span className="services-text2">Your-Spotify</span>
+              </div>
+            </a>
+            <a href="https://uptime.cg0072.lu" className="services-link2">
+              <div className="services-container06">
+                <img
+                  alt="image"
+                  src="/kuma-200h.png"
+                  className="services-image2"
+                />
+                <span className="services-text3">Uptime</span>
+              </div>
+            </a>
+            <a href="https://link.cg0072.lu/admin" className="services-link3">
+              <div className="services-container07">
+                <img
+                  alt="image"
+                  src="/link-200h.png"
+                  className="services-image3"
+                />
+                <span className="services-text4">Link Shortner</span>
+              </div>
+            </a>
+          </div>
+          <div className="services-container08">
+            <a href="https://cg0072.lu" className="services-link4">
+              <div className="services-container09">
+                <img
+                  alt="image"
+                  src="/favicon.png"
+                  className="services-image4"
+                />
+                <span className="services-text5">Website</span>
+              </div>
+            </a>
+            <a href="https://filebrowser.cg0072.lu" className="services-link5">
+              <div className="services-container10">
+                <img
+                  alt="image"
+                  src="/filebrowser-200h.png"
+                  className="services-image5"
+                />
+                <span className="services-text6">Filebrowser</span>
+              </div>
+            </a>
+            <a href="https://ssh.cg0072.lu" className="services-link6">
+              <div className="services-container11">
+                <img
+                  alt="image"
+                  src="/terminal-200h.png"
+                  className="services-image6"
+                />
+                <span className="services-text7">SSH</span>
+              </div>
+            </a>
+            <a href="https://portainer.cg0072.lu" className="services-link7">
+              <div className="services-container12">
+                <img
+                  alt="image"
+                  src="/portainer-200h.png"
+                  className="services-image7"
+                />
+                <span className="services-text8">Portainer</span>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
       <style jsx>
@@ -156,6 +132,13 @@ const Services = (props) => {
             margin: var(--dl-space-space-halfunit);
           }
           .services-container02 {
+            flex: 0 0 auto;
+            width: 200px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+          }
+          .services-container03 {
             gap: var(--dl-space-space-unit);
             flex: 0 0 auto;
             width: 100%;
@@ -172,7 +155,7 @@ const Services = (props) => {
           .services-link {
             display: contents;
           }
-          .services-container03 {
+          .services-container04 {
             flex: 0 0 auto;
             display: flex;
             align-items: flex-start;
@@ -193,7 +176,7 @@ const Services = (props) => {
           .services-link1 {
             display: contents;
           }
-          .services-container04 {
+          .services-container05 {
             flex: 0 0 auto;
             display: flex;
             align-items: flex-start;
@@ -214,7 +197,7 @@ const Services = (props) => {
           .services-link2 {
             display: contents;
           }
-          .services-container05 {
+          .services-container06 {
             flex: 0 0 auto;
             display: flex;
             align-items: flex-start;
@@ -235,7 +218,7 @@ const Services = (props) => {
           .services-link3 {
             display: contents;
           }
-          .services-container06 {
+          .services-container07 {
             flex: 0 0 auto;
             display: flex;
             align-items: flex-start;
@@ -253,7 +236,7 @@ const Services = (props) => {
             align-self: center;
             text-align: center;
           }
-          .services-container07 {
+          .services-container08 {
             gap: var(--dl-space-space-unit);
             flex: 0 0 auto;
             width: 100%;
@@ -270,7 +253,7 @@ const Services = (props) => {
           .services-link4 {
             display: contents;
           }
-          .services-container08 {
+          .services-container09 {
             flex: 0 0 auto;
             display: flex;
             align-items: flex-start;
@@ -291,7 +274,7 @@ const Services = (props) => {
           .services-link5 {
             display: contents;
           }
-          .services-container09 {
+          .services-container10 {
             flex: 0 0 auto;
             display: flex;
             align-items: flex-start;
@@ -312,7 +295,7 @@ const Services = (props) => {
           .services-link6 {
             display: contents;
           }
-          .services-container10 {
+          .services-container11 {
             flex: 0 0 auto;
             display: flex;
             align-items: flex-start;
@@ -333,7 +316,7 @@ const Services = (props) => {
           .services-link7 {
             display: contents;
           }
-          .services-container11 {
+          .services-container12 {
             flex: 0 0 auto;
             display: flex;
             align-items: flex-start;
@@ -350,6 +333,27 @@ const Services = (props) => {
             font-size: 30px;
             align-self: center;
             text-align: center;
+          }
+          @media (max-width: 1600px) {
+            .services-container02 {
+              width: 100%;
+            }
+          }
+          @media (max-width: 991px) {
+            .services-container02 {
+              gap: var(--dl-space-space-twounits);
+              width: auto;
+              flex-direction: row;
+              justify-content: center;
+            }
+            .services-container03 {
+              width: auto;
+              flex-direction: column;
+            }
+            .services-container08 {
+              width: auto;
+              flex-direction: column;
+            }
           }
         `}
       </style>
